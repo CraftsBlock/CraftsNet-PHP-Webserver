@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'de.craftsblock.craftsnet.webserver'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "https://repo.craftsblock.de/experimental"
+    }
+}
+
+dependencies {
+    implementation "de.craftsblock:craftsnet:3.0.3_2-EXPERIMENTAL"
+}

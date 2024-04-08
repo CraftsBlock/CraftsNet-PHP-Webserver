@@ -1,0 +1,4 @@
+{
+  "name": "PHP-Webserver",
+  "main": "de.craftsblock.craftsnet.webserver.PHPWebserver"
+}
