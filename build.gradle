@@ -9,10 +9,17 @@ repositories {
     mavenCentral()
 
     maven {
+        url "https://repo.craftsblock.de/releases"
+    }
+    maven {
         url "https://repo.craftsblock.de/experimental"
     }
 }
 
 dependencies {
-    implementation "de.craftsblock:craftsnet:3.0.3_2-EXPERIMENTAL"
+    implementation 'de.craftsblock.craftscore:CraftsCore:3.7.39-SNAPSHOT'
+    implementation "de.craftsblock:craftsnet:3.0.3_5-EXPERIMENTAL"
+
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.google.code.gson:gson:2.10'
 }
